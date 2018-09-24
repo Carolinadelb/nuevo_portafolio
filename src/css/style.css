@@ -1,0 +1,146 @@
+/*MENÚ*/
+/*Logo menú*/
+.logoCaroMenu{
+  width: 50px;
+  height: 50px;
+  margin-left: 15%;
+}
+.navbar{
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 22px;
+  padding: 3vh;
+  background-color: transparent;
+  border-color: transparent;
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+}
+/*boton menú*/
+.navbar-toggler{
+  border: none;
+  margin-right: 3%;
+}
+/*menú sticky*/
+.sticky.is-sticky {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 10000;
+  width: 100%;
+}
+/*HEADER*/
+
+/*Fondo*/
+.backgroundPic{
+  background-image:linear-gradient(rgba(251,194,235, 0.4), rgba(166,193,238, 0.45)), url(../../src/img/background1.jpeg); 
+  background-size: cover;
+  background-position: top; 
+  width: 100%;
+  
+  
+}
+/*logo Carolina*/
+.logoCarolina{
+  text-align: center;
+  width: 18em;
+  margin-top: 6vh;
+  margin-bottom: 6vh;
+}
+
+/*Título*/
+.titleHeader{
+  text-align: center;
+  margin-bottom: 4vh;
+}
+
+/*Párrafo 1*/
+.textHeader1{
+  text-align: justify;
+  margin-bottom: 3vh;
+}
+
+/*Párrafo 2*/
+.textHeader2{
+  text-align: center;
+}
+
+/*PORTAFOLIO en INICIO*/
+
+#titlePortfolio{
+  margin-top: 8vh;
+  margin-bottom: 8vh;
+  text-align: center;
+}
+
+/*Foto proyecto hover*/
+.hvrbox,
+.hvrbox * {
+	box-sizing: border-box;
+}
+.hvrbox {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+}
+img {
+	max-width: 100%;
+}
+.hvrbox .hvrbox-layer_bottom {
+	display: block;
+}
+.hvrbox .hvrbox-layer_top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	padding: 15px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+	opacity: 1;
+}
+.hvrbox .hvrbox-text {
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.hvrbox .hvrbox-text_mobile {
+	font-size: 15px;
+	border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+	border-top: 1px solid rgba(179, 179, 179, 0.7);
+	margin-top: 5px;
+	padding-top: 2px;
+	display: none;
+}
+.hvrbox.active .hvrbox-text_mobile {
+	display: block;
+}
+/*botón*/
+.btn-primary{
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  width: 20vh;
+  border-radius: 40px;
+  letter-spacing: 1px;
+}
