@@ -70,7 +70,7 @@ h5{
 .backgroundPic{
   background-image:linear-gradient(rgba(251,194,235, 0.4), rgba(166,193,238, 0.45)), url(../../src/img/background1.jpeg); 
   background-size: cover;
-  background-position: top; 
+  background-position: center; 
   width: 100%;
   border-bottom-left-radius: 50% 20%;
   border-bottom-right-radius: 50% 20%;
@@ -98,7 +98,7 @@ h5{
 
 /*Párrafo 2*/
 .textHeader2{
-  text-align: center;
+   text-align: center;
 }
 .arrowHeader{
   text-align: center;
@@ -138,7 +138,7 @@ img {
 /*Cada cajita*/
 
 .hvrbox .hvrbox-layer_bottom {
-	display: block;
+	  display: block;
 }
 .hvrbox .hvrbox-layer_top {
 	opacity: 0;
@@ -226,3 +226,148 @@ img {
   color: white;
   text-align: center;
 }
+
+/*MEDIA QUERIES*/
+
+/*MEDIA QUERIES*/
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 425px) { 
+  /*logo*/
+  .logoCarolina{
+   width: 100%;
+   align-content: center;
+  }
+  /*background*/
+  .backgroundPic{
+    background-position: right;
+    height: 40em;
+  }
+  /*title*/
+  .project{
+    text-align: center;
+    padding: 4vh;
+  }
+  #titlePortfolio{
+    margin-bottom: 2vh;
+  }
+  /*imagen portafolio*/
+  .imgProject{
+    width: 60vh;
+    height: auto;
+  }
+    /*Título Contacto*/
+    .titleContact{
+      margin-left: 35%;
+    }
+  
+  
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  header{
+    text-align: center;
+  }
+
+  .backgroundPic{
+    height: 36em;
+  }
+  .logoCarolina{
+    width: 25em;
+  }
+  .navbar-toggler{
+    margin-right: 5%;
+  }
+  /*PORTAFOLIO en INICIO*/
+  .project1{
+   margin-bottom: 5%;
+  }
+  .portfolio{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+   
+  }
+  #titlePortfolio{
+    margin-bottom: 8vh;
+  }
+  img {
+    max-width: 100%;
+  }
+
+  /*CONTACTO*/ 
+  .contact{
+    margin-top: 10vh;
+  }
+  .titleContact{
+    margin-bottom: 6vh;
+    margin-left: 40%;
+  }
+  .textHeader1{
+    text-align: center;
+  }
+  .contact1{
+    margin-top: -1vh;
+  }
+  .fab{
+    font-size: 9vh;
+  }
+  /*COPYRIGHT*/
+  .copyright{
+   margin-top: 10%;
+  }
+  /*LETRAS*/
+  /**/
+   h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+  }
+
+  p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+  }
+
+  h5{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+  }
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1024px) { 
+  /*Header*/
+  .textHeader1{
+    text-align: center;
+  }
+  header{
+    padding: 10vh;
+  }
+  .logoCarolina{
+    margin-top: 10vh;
+  }
+  .backgroundPic{
+    height: 36em;
+  }
+
+  /*Portafolio*/
+  .contentProject{
+    margin-top: 5%;
+  }
+  
+  /*Contacto*/
+  
+  .titleContact{
+    margin-left: 45%;
+  }
+  .fab{
+    display: inline-block;
+    font-size: 8vh;
+  }
+
+  /*Copyright*/
+  .copyright{
+    margin-top: 12vh;
+  }
+   
+ }
