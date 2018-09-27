@@ -126,8 +126,7 @@ h5{
 	box-sizing: border-box;
 }
 .hvrbox {
-	position: relative;
-	display: inline-block;
+ 	display: inline-block;
 	overflow: hidden;
 	max-width: 100%;
 	height: auto;
