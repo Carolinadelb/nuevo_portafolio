@@ -10,27 +10,35 @@ h2{
   font-family: 'Raleway', sans-serif;
   text-align: center;
   font-size: 30px;
+  font-weight: 400; 
 }
 
 h3{
   font-family: 'Raleway', sans-serif;
   font-size: 25px;
 }
-
+/*Labels*/
 h4{
   font-family: 'Raleway', sans-serif;
-  font-size: 20px;
+  font-size: 14px;  
 }
-
-p{
-  font-family: 'Raleway', sans-serif;
-  font-size: 16px;
-}
-
+/*Copyright*/
 h5{
   font-family: 'Oswald', sans-serif;
   font-size: 14px;
 }
+/*Plantilla Label*/
+h6{
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px; 
+  text-align: center;
+}
+p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
+
+
 /*MENÚ*/
 
 /*Logo menú*/
@@ -40,9 +48,9 @@ h5{
   margin-left: 15%;
 }
 .navbar{
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: white;
-  font-size: 22px;
+  font-size: 20px;
   padding: 3vh;
   background-color: rgba(168,168,168,0.5);
   border-color: transparent;
@@ -50,6 +58,7 @@ h5{
   -moz-box-shadow: 0 8px 6px -6px #999;
   box-shadow: 0 8px 6px -6px #999;
 }
+
 /*boton menú*/
 .navbar-toggler{
   border: none;
@@ -226,6 +235,42 @@ img {
   text-align: center;
 }
 
+/*PLANTILLA*/
+.backgroundPicProject1{
+  background-image:linear-gradient(rgba(251,194,235, 0.4), rgba(166,193,238, 0.45)), url(../../src/img/IF-Blanco-Recoleta_60-copy.jpg); 
+  background-size: cover;
+  background-position: center; 
+  width: 100%
+}
+/*Header*/
+.headerProject{
+  color: white;
+}
+
+/*Flecha*/
+.iconProject{
+  color:white;
+}
+
+/*Contenido*/
+.projectContent{
+  margin-top: 5%;
+}
+.titleProject{
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+ul{
+  margin-bottom: 10%;
+}
+
+.liProject{
+  font-family: 'Raleway', sans-serif;
+  list-style-type: disc;
+  font-size: 18px;
+  margin-top: 2%;
+}
+
 /*MEDIA QUERIES*/
 
 /*MEDIA QUERIES*/
@@ -239,7 +284,7 @@ img {
   /*background*/
   .backgroundPic{
     background-position: right;
-    height: 40em;
+    height: 43em;
   }
   /*title*/
   .project{
@@ -258,8 +303,10 @@ img {
     .titleContact{
       margin-left: 35%;
     }
-  
-  
+  .paragraphProject{
+    text-align: justify;
+  }
+ 
  }
 
 /* Medium devices (tablets, 768px and up) */
@@ -269,7 +316,7 @@ img {
   }
 
   .backgroundPic{
-    height: 36em;
+    height: 42em;
   }
   .logoCarolina{
     width: 25em;
@@ -316,10 +363,6 @@ img {
   }
   /*LETRAS*/
   /**/
-   h4{
-    font-family: 'Raleway', sans-serif;
-    font-size: 22px;
-  }
 
   p{
     font-family: 'Raleway', sans-serif;
@@ -346,7 +389,7 @@ img {
     margin-top: 10vh;
   }
   .backgroundPic{
-    height: 36em;
+    height: 44em;
   }
 
   /*Portafolio*/
@@ -363,10 +406,16 @@ img {
     display: inline-block;
     font-size: 8vh;
   }
+  .subtitleContact{
+    text-align: justify;
+  }
 
   /*Copyright*/
   .copyright{
     margin-top: 12vh;
   }
    
+ }
+ @media (min-width: 1024px) {
+  
  }
